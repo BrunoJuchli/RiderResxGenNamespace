@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Foo\Bar\Example.Designer.cs">
+    <Compile Update="Foo\Example.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Example.resx</DependentUpon>
@@ -13,10 +13,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Foo\Bar\Example.resx">
+    <EmbeddedResource Update="Foo\Example.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Example.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Foo\Bar\" />
   </ItemGroup>
 
 </Project>

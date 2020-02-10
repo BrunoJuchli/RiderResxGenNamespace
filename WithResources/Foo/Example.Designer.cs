@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WithResources.Foo.Bar {
+namespace WithResources.Foo {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WithResources.Foo.Bar {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WithResources.Foo.Bar.Example", typeof(Example).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WithResources.Foo.Example", typeof(Example).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -22,14 +22,14 @@ namespace WithResources.Foo {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Example {
+    internal class Example2 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Example() {
+        internal Example2() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace WithResources.Foo {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WithResources.Foo.Example", typeof(Example).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WithResources.Foo.Example2", typeof(Example2).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

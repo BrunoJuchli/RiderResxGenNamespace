@@ -5,17 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Foo\Example.Designer.cs">
+    <Compile Update="Foo\Example2.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Example.resx</DependentUpon>
+      <DependentUpon>Example2.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Foo\Example.resx">
+    <EmbeddedResource Update="Foo\Example2.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Example.Designer.cs</LastGenOutput>
+      <LastGenOutput>Example2.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

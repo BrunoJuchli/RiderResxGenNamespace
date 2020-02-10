@@ -13,10 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Foo\Bar\Example.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Example.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <Folder Include="Foo\Bar" />
   </ItemGroup>
 
 </Project>
